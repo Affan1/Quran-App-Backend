@@ -1,0 +1,32 @@
+name: quranic_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - notebook
+  - matplotlib
+  - seaborn
+  - pyyaml
+  - tqdm
+  - scipy
+  - flask
+  - flask-cors
+  - gdown
+  - ipykernel
+  - pip:
+      - tensorflow
+      - mlflow==2.2.2
+      - dvc
+      - python-box==6.0.2
+      - ensure
+      - datasets
+      - transformers
+      - joblib
+      - types-PyYAML
+      - torch --index-url https://download.pytorch.org/whl/cu129
+      - torchvision --index-url https://download.pytorch.org/whl/cu129
+      - torchaudio --index-url https://download.pytorch.org/whl/cu129
