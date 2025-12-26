@@ -210,3 +210,4 @@ __marimo__/
 /quranic_env
 /data
 *.pkl
+*.wav
